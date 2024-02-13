@@ -3,7 +3,7 @@ $(function () {
         e.stopPropagation();
         $("html").toggleClass('container-night');
         $(".sky-night").toggleClass('sky-night-fade');
-        $("p, h1").toggleClass('text-color');
+        $("p, h1, h2").toggleClass('text-color');
         $(".ocean-night").toggleClass('ocean-night-fade');
         $(".moon").toggleClass('moon-fade');
         $(".ocean").toggleClass('animation-stop');
